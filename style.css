@@ -1,0 +1,102 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+body{
+overflow-x: hidden;
+}
+.header ul li{
+    display: inline-block;
+    color: black;
+    padding-left: 15px;
+    padding: 3 px;
+    
+    
+    
+}
+
+
+.header{
+    width: 100%;
+    background-color: pink;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+   
+
+}
+.banner img{
+width: 100%;
+height: 250px;
+display: inline;
+}
+.services img{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    border: 4px;
+}
+.services div {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.services{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+   
+
+}
+.sd1{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding:10px;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+.sd2
+{
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    top:0;
+    right: 0;
+    padding:10px;
+    background-color: beige;
+border-radius: 30px;
+}
+.sd2 img{
+    width: 90%;
+    padding:10px;
+    height: 90%;
+}
+.sd1 p{
+    width: 40%;
+}
+.ad1
+{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding:10px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 5px;
+
+}
+.ad2{
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    top:0;
+    right: 0;
+    padding:10px;
+    background-color: beige;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 5px;
+}
